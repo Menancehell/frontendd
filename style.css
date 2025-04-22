@@ -1,0 +1,29 @@
+.navbar{
+    padding:0 ;
+    margin: 0;
+    background-color: aqua;
+
+}
+body{
+    background-color: beige;
+    text-align: center;
+}
+.navbar a:hover{
+    color: white;
+}
+.navbar a{
+    margin: 2cm;
+    font-size:1cm ;
+}
+.navbar .rigth nav{
+    color: brown;
+}
+.home img{
+    height: 10cm;
+    width: 10cm;
+    /* padding-left:25cm; */
+    
+}
+.home{
+    display: flex;
+}
