@@ -1,19 +1,23 @@
 .navbar{
     padding:0 ;
     margin: 0;
-    background-color: aqua;
+    background-color: #2c3e50;
 
 }
 body{
-    background-color: beige;
+    background-color: #daeaf7;
     text-align: center;
+    margin: 0;
 }
+
 .navbar a:hover{
-    color: white;
+    color: lightblue;
 }
 .navbar a{
     margin: 2cm;
     font-size:1cm ;
+    color: white;
+    text-decoration: none;
 }
 .navbar .rigth nav{
     color: brown;
@@ -21,9 +25,62 @@ body{
 .home img{
     height: 10cm;
     width: 10cm;
-    /* padding-left:25cm; */
-    
+    margin: 10px;
+    border: 3px solid black;
 }
 .home{
     display: flex;
+    
+    
+}
+.home p{
+    text-align: justify;
+    color: black;
+    padding-left: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    text-align: center;
+}
+#msg{
+    height: 50px;
+
+}
+.but {
+background-color: orange;
+width: 200px;
+color: white;
+
+}
+.con{
+    /* text-decoration: ; */
+    color: #2c3e50 ;
+    padding: 5px;
+}
+.contact{
+    background-color:#d0d6d6;
+    height: 300px;
+}
+.footer a:hover{
+    color: white;
+;
+    
+}
+.footer{
+    background-color: #2c3e50;
+    height: 100px;
+    margin: 0;
+}
+.footer a{
+    text-decoration: none;
+    color: orange;
+    padding: 10px;
+}
+.footer p{
+    color: white;
+   padding: 10px;
+   margin-bottom: 5px;
 }
