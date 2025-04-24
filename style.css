@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color: #daeaf7;
+    background-color: #d0d6d6;
     text-align: center;
     margin: 0;
 }
@@ -30,8 +30,6 @@ body{
 }
 .home{
     display: flex;
-    
-    
 }
 .home p{
     text-align: justify;
@@ -44,6 +42,7 @@ body{
     gap: 20px;
     width: 500px;
     text-align: center;
+    margin: auto;
 }
 #msg{
     height: 50px;
@@ -53,12 +52,14 @@ body{
 background-color: orange;
 width: 200px;
 color: white;
-
+border: solid black 2px;
+border-radius: 12px;
+margin: auto;
 }
 .con{
     /* text-decoration: ; */
     color: #2c3e50 ;
-    padding: 5px;
+    padding: 10px;
 }
 .contact{
     background-color:#d0d6d6;
@@ -83,4 +84,40 @@ color: white;
     color: white;
    padding: 10px;
    margin-bottom: 5px;
+}
+.project img{
+    height: 5cm;
+    width: 8cm;
+ 
+}
+
+.project p{
+    text-align: justify;
+    margin: 0;
+    padding-left: 10px;
+    text-align: center;
+}
+.projectsection{
+    display: flex;
+    
+    justify-content: center;
+    gap: 20px;
+}
+.project{
+    text-align: center;
+}
+.project h1{
+    
+        color:  #2c3e50;
+
+}
+.projectcontent-left{
+    width: 8cm;
+}
+.projectcontent-right{
+    width: 8cm;
+}
+.projectlayout{
+    display: flex;
+    gap: 20px;
 }
