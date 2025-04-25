@@ -2,7 +2,9 @@
     padding:0 ;
     margin: 0;
     background-color: #2c3e50;
-
+    height: 50px;
+    position: sticky;
+    top: 0;
 }
 body{
     background-color: #d0d6d6;
@@ -26,10 +28,14 @@ body{
     height: 10cm;
     width: 10cm;
     margin: 10px;
-    border: 3px solid black;
+    padding-top: 75px;
 }
 .home{
     display: flex;
+}
+.home h1{
+    color: #2c3e50;
+    text-align: left;
 }
 .home p{
     text-align: justify;
@@ -60,6 +66,7 @@ margin: auto;
     /* text-decoration: ; */
     color: #2c3e50 ;
     padding: 10px;
+    
 }
 .contact{
     background-color:#d0d6d6;
@@ -87,8 +94,8 @@ margin: auto;
 }
 .project img{
     height: 5cm;
-    width: 8cm;
- 
+    width: 280px;
+    object-fit: cover;
 }
 
 .project p{
@@ -105,19 +112,22 @@ margin: auto;
 }
 .project{
     text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
 }
 .project h1{
-    
         color:  #2c3e50;
+}
 
-}
-.projectcontent-left{
-    width: 8cm;
-}
-.projectcontent-right{
-    width: 8cm;
-}
 .projectlayout{
     display: flex;
-    gap: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+   
+
+.projectcontent{
+    width: 280px;
+    background-color:#d0d6d6;
 }
