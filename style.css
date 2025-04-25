@@ -1,76 +1,89 @@
-.navbar{
-    padding:0 ;
+.navbar {
+    padding: 0;
     margin: 0;
     background-color: #2c3e50;
     height: 50px;
     position: sticky;
     top: 0;
 }
-body{
+
+body {
     background-color: #d0d6d6;
     text-align: center;
     margin: 0;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: lightblue;
 }
-.navbar a{
+
+.navbar a {
     margin: 2cm;
-    font-size:1cm ;
+    font-size: 1cm;
     color: white;
     text-decoration: none;
 }
-.navbar .rigth nav{
+
+.navbar .rigth nav {
     color: brown;
 }
-.me{
+
+.me {
     background-color: #16a085;
-    height: 300px;
-}
-.me h1{
-    margin-top: 0;
-    padding-top: 70px;
-    color: white;
-}
-.me p{
-    color: white;
-}
-.me a:hover{
-    background-color:#2c3e50
+    height: 600px;
+    font-size: 20px;
 }
 
-.me a{
+.me h1 {
+    margin-top: 0;
+    padding-top: 200px;
+    color: white;
+}
+
+.me p {
+    color: white;
+}
+
+.me a:hover {
+    background-color: #2c3e50
+}
+
+.me a {
     color: white;
     background-color: orange;
     /* border: solid white 1px; */
     height: 50px;
     width: 30px;
-    border-radius: 12px; 
+    border-radius: 12px;
     padding: 5px;
     text-decoration: none;
 }
-.home img{
+
+.home img {
     height: 9cm;
     width: 9cm;
     margin: 10px;
     object-fit: cover;
     border-radius: 200px;
 }
-.home{
+
+.home {
     display: flex;
 }
-section{
+
+section {
     color: #2c3e50;
     text-align: center;
     font-size: larger;
 }
-.home p{
+
+.home p {
     text-align: justify;
     color: black;
     padding: 50px;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -78,88 +91,99 @@ section{
     text-align: center;
     margin: auto;
 }
-#msg{
+
+#msg {
     height: 50px;
 
 }
+
 .but {
-background-color: orange;
-width: 200px;
-color: white;
-border: solid black 2px;
-border-radius: 12px;
-margin: auto;
-text-decoration: none;
+    background-color: orange;
+    width: 200px;
+    color: white;
+    border: solid black 2px;
+    border-radius: 12px;
+    margin: auto;
+    text-decoration: none;
 }
-.form a :hover{
-    background-color:#2c3e50
+
+.form a :hover {
+    background-color: #2c3e50
 }
-.con{
+
+.con {
     /* text-decoration: ; */
-    color: #2c3e50 ;
+    color: #2c3e50;
     padding: 10px;
-    
+
 }
-.contact{
-    background-color:#d0d6d6;
+
+.contact {
+    background-color: #d0d6d6;
     height: 300px;
 }
-.footer a:hover{
+
+.footer a:hover {
     color: white;
-;
-    
 }
-.footer{
+
+.footer {
     background-color: #2c3e50;
     height: 100px;
     margin: 0;
 }
-.footer a{
+
+.footer a {
     text-decoration: none;
     color: orange;
     padding: 10px;
 }
-.footer p{
+
+.footer p {
     color: white;
-   padding: 10px;
-   margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
 }
-.project img{
+
+.project img {
     height: 5cm;
     width: 280px;
     object-fit: cover;
 }
 
-.project p{
+.project p {
     text-align: justify;
     margin: 0;
     padding-left: 10px;
     text-align: center;
 }
-.projectsection{
+
+.projectsection {
     display: flex;
-    
+
     justify-content: center;
     gap: 20px;
 }
-.project{
+
+.project {
     text-align: center;
     background-color: white;
     padding-bottom: 20px;
 }
-.project h1{
-        color:  #2c3e50;
+
+.project h1 {
+    color: #2c3e50;
 }
 
-.projectlayout{
+.projectlayout {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
 }
-   
 
-.projectcontent{
+
+.projectcontent {
     width: 280px;
-    background-color:#d0d6d6;
+    background-color: #d0d6d6;
 }
