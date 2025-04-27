@@ -1,23 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .navbar {
     padding: 0;
     margin: 0;
     background-color: #2c3e50;
-    height: 50px;
     position: sticky;
     top: 0;
 }
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+}
+.navbar ul li{
+    height: 25px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: lightblue;
+}
 
+.navbar a::after{
+    content:"" ;
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: orange;
+    margin-top: 3px;
+}
+.navbar a:hover::after{
+     width: 100%;
+}
 body {
     background-color: #d0d6d6;
     text-align: center;
     margin: 0;
 }
 
-.navbar a:hover {
-    color: lightblue;
-}
 
-.navbar a {
+/* .navbar a {
     margin: 2cm;
     font-size: 1cm;
     color: white;
@@ -26,7 +53,7 @@ body {
 
 .navbar .rigth nav {
     color: brown;
-}
+} */
 
 .me {
     background-color: #16a085;
@@ -42,6 +69,7 @@ body {
 
 .me p {
     color: white;
+    padding-bottom: 20px;
 }
 
 .me a:hover {
@@ -97,22 +125,20 @@ section {
 
 }
 
-.but {
+.form a:hover {
+    background-color: #2c3e50;
+}
+
+.form a {
     background-color: orange;
     width: 200px;
     color: white;
-    border: solid black 2px;
     border-radius: 12px;
     margin: auto;
     text-decoration: none;
 }
 
-.form a :hover {
-    background-color: #2c3e50
-}
-
 .con {
-    /* text-decoration: ; */
     color: #2c3e50;
     padding: 10px;
 
