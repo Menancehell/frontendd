@@ -33,6 +33,7 @@
     height: 2px;
     background-color: orange;
     margin-top: 3px;
+    transition: 0.2s;
 }
 .navbar a:hover::after{
      width: 100%;
