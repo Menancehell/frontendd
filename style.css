@@ -44,7 +44,9 @@
 .navbar a:hover::after{
      width: 100%;
 }
-
+.navlinks.active{
+    display: flex;
+}
 /* .navbar a {
     margin: 2cm;
     font-size: 1cm;
@@ -74,6 +76,10 @@
     flex-direction: column;
     background-color: white;
     position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
     }
 }
     
@@ -255,6 +261,7 @@ section {
     /* width: 190px; */
     object-fit: cover;
     border-radius: 12px;
+    justify-content: center;
     
 }
 .service{
@@ -273,10 +280,15 @@ section {
     color: #2c3e50;
 }
 .servicecontent{
-    width: 200px;
+    width: 280px;
     background-color: wheat;
 }
 .servicecontent:hover{
-    width: 195px;
+     width:270px;
     background-color: rgb(138, 92, 7);
+}
+.servicelayout{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
 }
