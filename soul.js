@@ -10,7 +10,7 @@ function type(){
     if(index < text.length){
         typedText.textContent +=text.charAt(index);
         index++;
-        setTimeout(type, 150);
+        setTimeout(type, 200);
     }
 }
 type();
@@ -71,3 +71,34 @@ services.forEach(service =>
     `;
     scontainer.appendChild(card);
 });
+
+const reviews=[
+    {
+        image: "image/pexels-cornellana-31291350.jpg",
+        title:"Hibino Kafka",
+        description:"dfghddgdfg",
+    },
+    {
+        image:"image/pexels-cornellana-31291350.jpg",
+        title:"Elon Musk",
+        description:"dfgdfgdfgdfg",
+    },
+    {
+        image:"image/pexels-cornellana-31291350.jpg",
+        title:"Mark Zukurburg",
+        description:"dfgdgdfg",
+    },
+];
+
+const rcontainer=document.getElementById("reviewcard");
+reviews.forEach(review =>
+{
+    const card1=document.createElement("div");
+    card1.className="reviewcontent";
+    card1.innerHTML=`<img src="${review.image}" alt="${review.title}"/>
+    <h3>${review.title}</h3>
+    <p>${review.description}</p>
+    `;
+     rcontainer.appendChild(card1);
+}
+);
