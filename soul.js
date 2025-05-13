@@ -1,6 +1,6 @@
-// const hamburger =document.getElementById(" hamburger")
-// const navlinks =document.getElementById("navbar")
-// hamburger.addEventListener('click',()=>{navlinks.classList.toggle('active')});
+const hamburger =document.getElementById("hamburger")
+const navlinks =document.getElementById("navbar")
+hamburger.addEventListener('click',()=>{navlinks.classList.toggle('active')});
 
 const text = " Hi i am Mr. S ";
 const typedText = document.getElementById('typed-text');

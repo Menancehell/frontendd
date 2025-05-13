@@ -74,15 +74,18 @@
    .navbar ul{
     display: none;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(236, 65, 65);
     position: absolute;
     top: 60px;
     right: 20px;
     padding: 15px;
     border-radius: 8px;
+    color: #2c3e50;
     }
 }
-    
+   .navlinks li a{
+    color: #2c3e50;
+   } 
 
 body {
     background-color: #d0d6d6;
@@ -135,6 +138,7 @@ body {
 
 .home {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 section {
@@ -224,7 +228,7 @@ section {
 
 .projectsection {
     display: flex;
-
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -265,6 +269,7 @@ section {
     
 }
 .service{
+   
     padding: 20px;
     background-color: white;
     justify-content: center;
@@ -280,6 +285,8 @@ section {
     color: #2c3e50;
 }
 .servicecontent{
+     display: flex;
+    flex-wrap: wrap;
     width: 280px;
     background-color:#d0d6d6;
 }
@@ -289,6 +296,7 @@ section {
 }
 .servicelayout{
     display: flex;
+    flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
 }
@@ -296,6 +304,12 @@ section {
     padding: 20px;
     background-color: white;
     justify-content: center;
+    
+}
+.review img{
+    border-radius: 10px;
+    width: 50px;
+    height: 20px;
 }
 .review p{
     text-align: center;
@@ -303,6 +317,7 @@ section {
 }
 .reviewlayout{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
