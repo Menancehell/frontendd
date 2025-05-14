@@ -1,0 +1,34 @@
+body{
+   text-align: center;
+   background-color: beige;
+}
+
+button{
+    justify-content: center;
+    background-color: lightblue;
+    margin: auto;
+    width: 250px;
+    /* border: none; */
+}
+button:hover{
+    background-color: aqua;
+}
+.bmi{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+    border: 2px solid grey;
+    padding: 40px;
+    padding-top: 20px;
+}
+.bmi label{
+    text-align: justify;
+}
+.bmi h1{
+    /* margin: 20px;
+    padding-bottom: 20px; */
+    text-align: left;
+}

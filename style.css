@@ -269,13 +269,13 @@ section {
     
 }
 .service{
-   
+   text-align: center;
     padding: 20px;
     background-color: white;
     justify-content: center;
 }
 .service p{
-    text-align: justify;
+    text-align: center;
     margin: 0;
     padding-left: 10px;
     text-align: center;
@@ -285,10 +285,11 @@ section {
     color: #2c3e50;
 }
 .servicecontent{
-     display: flex;
+     /* display: flex; */
     flex-wrap: wrap;
     width: 280px;
     background-color:#d0d6d6;
+    
 }
 .servicecontent:hover{
      width:270px;
@@ -299,6 +300,9 @@ section {
     flex-wrap: wrap;
     gap: 100px;
     justify-content: center;
+}
+.service h3{
+    text-align: center;
 }
 .review{
     padding: 20px;
