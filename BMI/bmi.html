@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form action="#" class="bmi">
+   
+     <form action="#" class="bmi" id="bmi">
         <h1>BMI Calculator</h1>
         <label for="height">Height in (cm);</label>
-        <input type="number" id="height" >
+        <input type="number" id="height"required >
         <label for="weight">Weight in (kg);</label>
-        <input type="number" id="weight">
+        <input type="number"id="weight"required>
         <br>
-        <button type="submit">Calculate BMI</button>
- 
-    </form>
-           <div id="result">
+        <button type="submit ">Calculate BMI</button>
+        <br>
+       <div id="result">
 
         </div>
+    </form>
+           
     
+  
+    <script src="./script.js"></script>
 </body>
 </html>
